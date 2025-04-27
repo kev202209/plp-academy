@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div id="app-container">
+        <h1>Registration Form</h1>
+
+        <div class="toggle-container">
+            <label class="toggle-switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span style="margin-left: 0.5rem; color: #4a5568; line-height: 34px; transition: color 0.5s ease;">Dark Mode</span>
+        </div>
+
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                <p id="name-error" class="error-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                <p id="email-error" class="error-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password (Min 8 characters)</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                <p id="password-error" class="error-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" class="form-control" placeholder="Confirm your password">
+                <p id="confirm-password-error" class="error-message"></p>
+            </div>
+            <button type="submit" class="btn-primary">Register</button>
+        </form>
+        <div id="submission-message">Thanks for your registration!</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
