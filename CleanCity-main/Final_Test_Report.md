@@ -3,6 +3,8 @@
 **Project:** CleanCity: Waste Pickup Scheduler  
 **Date:** 2025-06-30  
 **Tested by:** group 27
+**Submitted by**: Kelvin Muendo  
+**Submission Date**: 2025-06-30
 
 ---
 
