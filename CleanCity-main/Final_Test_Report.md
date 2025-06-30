@@ -3,8 +3,7 @@
 **Project:** CleanCity: Waste Pickup Scheduler  
 **Date:** 2025-06-30  
 **Tested by:** group 27
-**Submitted by**: Kelvin Muendo  
-**Submission Date**: 2025-06-30
+
 ---
 
 ## 1. Project Overview
@@ -31,6 +30,10 @@ CleanCity is a React-based web application simulating a waste management system 
 | 4 | UI State | Mark as Scheduled in Admin panel | UI updates immediately | UI updates as expected | **Pass** |
 | 5 | Boundary Testing | Enter very long text in forms | Layout remains stable | Layout remains stable | **Pass** |
 | 6 | Email Validation | Enter invalid email (e.g. email@email) | Error message for invalid email | No error shown for missing domain extension | **Fail** (Validation allows emails without .com/.net, etc.) |
+
+**Screenshot of Email Validation Issue:**
+
+![Email validation error](email_error.jpg)
 
 ---
 
