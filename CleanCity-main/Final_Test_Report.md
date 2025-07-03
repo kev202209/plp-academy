@@ -2,17 +2,17 @@
 
 **Project:** CleanCity: Waste Pickup Scheduler  
 **Date:** 2025-06-30  
-**Tested by:** group 27
+**Tested by:** The Konstants
 **Submitted by**: Kelvin Muendo  
 **Submission Date**: 2025-06-30
 
----
+
 
 ## 1. Project Overview
 
 CleanCity is a React-based web application simulating a waste management system for cities.
 
----
+
 
 ## 2. Test Approach
 
@@ -20,7 +20,7 @@ CleanCity is a React-based web application simulating a waste management system 
 - **Automated Testing:** Using React Testing Library (npm test)
 - **Code Review:** High-level review of routing, authentication, and component structure
 
----
+
 
 ## 3. Manual Testing Scenarios & Results
 
@@ -37,18 +37,24 @@ CleanCity is a React-based web application simulating a waste management system 
 
 ![Email validation error](email_error.jpg)
 
----
+
 
 ## 4. Automated Testing
 
 - **Command:** `npm test`
 - **Framework:** React Testing Library
 - **Result:**
-    - All tests pass
+    - 2 tests passed and 2 failed
     - No critical errors in test runner
     - Coverage not specified in README
 
----
+
+
+**Screenshot of Automate Testing Issue:**
+
+![Automated testing failure](test_failed.jpg)
+
+
 
 ## 5. Code Review & Additional Observations
 
@@ -67,7 +73,7 @@ CleanCity is a React-based web application simulating a waste management system 
     - Responsive design: Claimed in README, but not verified in code review
     - No ESLint or Prettier config found in root (could improve code quality)
 
----
+
 
 ## 6. Recommendations
 
@@ -78,12 +84,12 @@ CleanCity is a React-based web application simulating a waste management system 
 - **Add more automated tests** for edge cases and regression
 - **Add ESLint/Prettier** for code consistency
 
----
+
 
 ## 7. Conclusion
 
 All major tests based on the README have passed, except for the email validation, which allows emails without a domain extension. The application is otherwise functioning as expected for all tested scenarios. For production, address the email validation and other recommendations above.
 
----
+
 
 **End of Report**
